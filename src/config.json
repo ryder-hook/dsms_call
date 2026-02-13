@@ -1,0 +1,5 @@
+{
+  "base_url": "https://dsms.mabunta.de",
+  "token_path": "/Users/thorsten.dombach/.config/dsms_api/token",
+  "api_prefix": "/api/v1"
+}

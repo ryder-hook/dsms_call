@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "Starte DSMS CLI (me)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/main.py",
+      "args": ["me"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
