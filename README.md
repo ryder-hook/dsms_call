@@ -96,3 +96,4 @@ python3 -m src.main me
 
 Bei korrekter Konfiguration wird ein JSON-Objekt mit den Informationen über den aktuell authentifizierten Benutzer angezeigt, z. B.:
 {"username":"stefan.testh@domain.de","systemLang":"DE","email":"stefan.test@domain.de"}
+
