@@ -5,7 +5,8 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_DIR="$SCRIPT_DIR"
 
 # Virtuelle Umgebung verwenden, wenn vorhanden
-VENV_PY="$PROJECT_DIR/.venv/bin/python"
+SCRIPT_NAME="$(basename "$PROJECT_DIR")"
+VENV_PY="$HOME/.local/venvs/$SCRIPT_NAME/bin/python"
 
 if [ -x "$VENV_PY" ]; then
   PYTHON="$VENV_PY"

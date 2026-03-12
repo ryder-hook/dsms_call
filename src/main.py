@@ -8,7 +8,9 @@ import json
 
 MIN_VER = (3, 10)
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-VENV_PY = os.path.join(PROJECT_DIR, "..", ".venv", "bin", "python")
+SCRIPT_NAME = os.path.basename(os.path.dirname(PROJECT_DIR))
+VENV_DIR = os.path.join(os.path.expanduser("~"), ".local", "venvs", SCRIPT_NAME)
+VENV_PY = os.path.join(VENV_DIR, "bin", "python")
 
 
 def _same_exec(a, b):
